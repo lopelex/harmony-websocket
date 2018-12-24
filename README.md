@@ -1,13 +1,12 @@
 # harmony-websocket
-Websocket implementation for Harmony Hub
 
+Websocket implementation for Harmony Hub
 
 
 ## Getting started
 
 ```
 const Harmony = require('harmony-websocket');
-
 const harmony = new Harmony();
 
 harmony.on('open', () => {
@@ -22,7 +21,7 @@ harmony.on('stateDigest', (data) => {
     console.log(data);
 });
 
-harmony.connect('192.168.0.131')
+harmony.connect(ip)
 
     // .then(() => harmony.getConfig())
     // .then(response => console.log(response))
@@ -45,11 +44,10 @@ harmony.connect('192.168.0.131')
     // .then(() => harmony.getDeviceCommands(DeviceId))
     // .then(response => console.log(response))
 
-    //.then(() => harmony.sendCommands('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}', 50))
-    //.then(response => console.log(response))
+    // .then(() => harmony.sendCommands('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}', 50))
+    // .then(response => console.log(response))
 
-
-    .then(() => harmony.close())
+    // .then(() => harmony.end())
 
     .catch(e => console.error(e.message));
 ```
