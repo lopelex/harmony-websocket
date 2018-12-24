@@ -1,0 +1,29 @@
+{
+    "name": "harmony-websocket",
+    "version": "1.0.0",
+    "description": "websocket implementation for Harmony Hub",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lopelex/harmony-websocket.git"
+    },
+    "keywords": [
+        "harmony",
+        "websocket"
+    ],
+    "author": "lopelex",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/lopelex/harmony-websocket/issues"
+    },
+    "homepage": "https://github.com/lopelex/harmony-websocket#readme",
+    "dependencies": {
+        "request": "latest",
+        "request-promise": "latest",
+        "websocket": "latest",
+        "websocket-as-promised": "latest"
+    }
+}
