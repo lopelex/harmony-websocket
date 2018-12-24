@@ -1,10 +1,4 @@
-# harmony-websocket
-websocket implementation for Harmony Hub
-
-## Getting started
-
-```
-const Harmony = require('harmony-websocket');
+const Harmony = require('./lib/harmony-websocket');
 
 const harmony = new Harmony();
 
@@ -50,4 +44,3 @@ harmony.connect('192.168.0.131')
     .then(() => harmony.close())
 
     .catch(e => console.error(e.message));
-```
