@@ -44,7 +44,10 @@ harmony.connect(ip)
     // .then(() => harmony.getDeviceCommands(DeviceId))
     // .then(response => console.log(response))
 
-    // .then(() => harmony.sendCommands('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}', 50))
+    // .then(() => harmony.sendCommands('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}'))
+    // .then(response => console.log(response))
+
+    // .then(() => harmony.sendCommandsWithDelay('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}', 50))
     // .then(response => console.log(response))
 
     // .then(() => harmony.end())
