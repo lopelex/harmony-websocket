@@ -1,5 +1,8 @@
 # harmony-websocket
 
+[![npm](https://img.shields.io/npm/v/harmony-websocket/latest.svg)](https://www.npmjs.com/package/harmony-websocket)	 
+[![npm package](https://img.shields.io/npm/dm/harmony-websocket.svg)](https://www.npmjs.com/package/node-red-contrib-harmony-websocket)
+
 Websocket implementation for Harmony Hub
 
 
@@ -44,10 +47,20 @@ harmony.connect(ip)
     // .then(() => harmony.getDeviceCommands(DeviceId))
     // .then(response => console.log(response))
 
-    // .then(() => harmony.sendCommands('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}'))
+    // .then(() => harmony.getAutomationCommands())
     // .then(response => console.log(response))
 
-    // .then(() => harmony.sendCommandsWithDelay('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}', 50))
+    // .then(() => harmony.sendCommand('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}'))
+    // .then(response => console.log(response))
+
+    // .then(() => harmony.sendCommandWithDelay('{"command":"command","type":"IRCommand","deviceId":"DeviceId"}', 50))
+    // .then(response => console.log(response))
+
+    // .then(() => harmony.sendAutomationCommand({
+    //     "hueId" : {
+    //         "on" : "true"
+    //     }
+    // }))
     // .then(response => console.log(response))
 
     // .then(() => harmony.end())
