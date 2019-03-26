@@ -1,7 +1,7 @@
 # harmony-websocket
 
 [![npm](https://img.shields.io/npm/v/harmony-websocket/latest.svg)](https://www.npmjs.com/package/harmony-websocket)	 
-[![npm package](https://img.shields.io/npm/dm/harmony-websocket.svg)](https://www.npmjs.com/package/node-red-contrib-harmony-websocket)
+[![npm package](https://img.shields.io/npm/dm/harmony-websocket.svg)](https://www.npmjs.com/package/harmony-websocket)
 
 Websocket implementation for Harmony Hub
 
