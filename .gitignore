@@ -1,4 +1,7 @@
-/node_modules
-/npm-debug.log
-/package-lock.json
+node_modules
 .DS_Store
+.vs
+.vscode
+npm-debug.log
+package-lock.json
+target
