@@ -24,6 +24,10 @@ harmony.on('stateDigest', (data) => {
     console.log(data);
 });
 
+harmony.on('automationState', (data) => {
+    console.log(data);
+});
+
 harmony.connect(ip)
 
     // .then(() => harmony.getConfig())
@@ -63,7 +67,7 @@ harmony.connect(ip)
     // }))
     // .then(response => console.log(response))
 
-    // .then(() => harmony.end())
+    // .then(() => harmony.close())
 
     .catch(e => console.error(e.message));
 ```
