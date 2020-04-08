@@ -1,6 +1,6 @@
 {
     "name": "harmony-websocket",
-    "version": "1.5.1",
+    "version": "1.5.0",
     "description": "Websocket implementation for Harmony Hub",
     "main": "index.js",
     "scripts": {
@@ -25,5 +25,13 @@
         "request-promise": "^4.2.5",
         "websocket": "^1.0.31",
         "websocket-as-promised": "^1.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.1.0",
+        "eslint-config-standard": "^13.0.1",
+        "eslint-plugin-import": "^2.18.2",
+        "eslint-plugin-node": "^9.1.0",
+        "eslint-plugin-promise": "^4.2.1",
+        "eslint-plugin-standard": "^4.0.0"
     }
 }

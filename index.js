@@ -1,3 +1,3 @@
-const Harmony = require('./lib/harmony-websocket')
+const Harmony = require('./lib/harmony-websocket');
 
 module.exports = Harmony;
