@@ -1,6 +1,6 @@
 {
     "name": "harmony-websocket",
-    "version": "1.0.9",
+    "version": "1.5.1",
     "description": "Websocket implementation for Harmony Hub",
     "main": "index.js",
     "scripts": {
