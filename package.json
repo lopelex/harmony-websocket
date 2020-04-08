@@ -1,6 +1,6 @@
 {
     "name": "harmony-websocket",
-    "version": "1.0.8",
+    "version": "1.0.9",
     "description": "Websocket implementation for Harmony Hub",
     "main": "index.js",
     "scripts": {
@@ -21,9 +21,9 @@
     },
     "homepage": "https://github.com/lopelex/harmony-websocket#readme",
     "dependencies": {
-        "request": "latest",
-        "request-promise": "latest",
-        "websocket": "latest",
-        "websocket-as-promised": "latest"
+        "request": "^2.88.2",
+        "request-promise": "^4.2.5",
+        "websocket": "^1.0.31",
+        "websocket-as-promised": "^1.0.1"
     }
 }
