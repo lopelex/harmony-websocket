@@ -22,8 +22,8 @@
     "homepage": "https://github.com/lopelex/harmony-websocket#readme",
     "dependencies": {
         "node-fetch": "^2.6.1",
-        "websocket": "^1.0.32",
-        "websocket-as-promised": "1.0.1"
+        "websocket-as-promised": "^1.0.1",
+        "ws": "^7.4.2"
     },
     "devDependencies": {
         "eslint": "^7.10.0",
